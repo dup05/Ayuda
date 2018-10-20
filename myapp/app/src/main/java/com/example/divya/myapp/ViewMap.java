@@ -1,5 +1,6 @@
 package com.example.divya.myapp;
 
+import android.location.Location;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 
@@ -9,6 +10,8 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+
+
 
 public class ViewMap extends FragmentActivity implements OnMapReadyCallback {
 
@@ -35,12 +38,24 @@ public class ViewMap extends FragmentActivity implements OnMapReadyCallback {
      * installed Google Play services and returned to the app.
      */
     @Override
-    public void onMapReady(GoogleMap googleMap) {
+   public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
+        //LatLng sydney = new LatLng(-34, 151);
+        //15.2993° N, 74.1240
+        LatLng sydney = new LatLng(15, 74);
+        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Goa"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
-    }
+
+
+      /*  LatLng cur = new LatLng(Location.getLatitude(),
+                Location.getLongitude());
+        mMap.addMarker(new MarkerOptions().position(cur).title("Marker in current"));
+         mMap.moveCamera(CameraUpdateFactory.newLatLng(cur));*/
+
+
+   }
 }
+
+
