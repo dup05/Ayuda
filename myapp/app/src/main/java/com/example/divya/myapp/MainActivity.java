@@ -27,6 +27,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        CardView card_view2 = (CardView) findViewById(R.id.cardView2);
+
+        card_view2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                // do whatever you want to do on click (to launch any fragment or activity you need to put intent here.)
+
+                Intent intent = new Intent(MainActivity.this, Aboutus.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 
