@@ -19,4 +19,10 @@
     <string name="Adress2">Warkhande, Ponda-Goa</string>
     <string name="sp2">Cardiologist</string>
     <string name="title_activity_view_map">Map</string>
+    <string name="entername">Enter name to search</string>
+    <string name="ayud">AYUDA</string>
+    <string name="mission_statement">Mission Statement</string>
+    <string name="ayuda_has_been_developed_with_the_mission_to_reduce_the_delay_in_accessing_the_medical_facilities_during_the_time_of_a_calamity_microsoft_codefund_has_been_a_great_inspiration_to_us_in_developing_the_application">Ayuda has been developed with the mission to reduce the delay in accessing the medical facilities during the time of a calamity.Microsoft codefund has been a great inspiration to us in developing the application.</string>
+    <string name="developers">Developers</string>
+    <string name="divya_prabhu_yulan_d_costa_manasi_gude">Divya Prabhu , Yulan D\'Costa , Manasi Gude</string>
 </resources>
