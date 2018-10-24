@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AYUDA</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login_successful">Login Successful</string>
+    <string name="register_here">Register here</string>
+    <string name="register">REGISTER HERE</string>
+    <string name="name">Name</string>
+    <string name="email2">Email</string>
+    <string name="address">Address</string>
+    <string name="create_a_password">Create a password</string>
+    <string name="register2">Register</string>
+    <string name="aster_hospitals">Aster Hospitals</string>
+    <string name="icu_nicu_available">ICU NICU Available</string>
+    <string name="_36_beded">36 beded</string>
+</resources>
